@@ -1,5 +1,5 @@
 import React from "react";
-import Section1 from "./component/Section-1/Section-1";
+import Section1 from "./component/Section-1";
 
 const App = () => {
   const users = [
@@ -22,7 +22,11 @@ const App = () => {
       img: "https://images.unsplash.com/photo-1600275669439-14e40452d20b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tag: "Proffesional",
       color: "black",
-    },
+    },{
+      img: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tag: "Worker",
+      color: "#8B0000",
+    }
   ];
   return (
     <div>
